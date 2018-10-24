@@ -1,0 +1,56 @@
+html, body {
+    background: rgb(248, 245, 245);
+    height: 100%;
+    font-family: 'Cormorant Infant', serif;
+}
+.heading {
+    color: black;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+span {
+    color: rgb(243, 107, 107);
+}
+
+.container {
+    background-color: white;
+    height: 92%;
+    width: 90%;
+    margin: auto;
+    padding-top: 1.7rem;
+}
+
+.content {
+    background-color: rgb(250, 244, 202);
+    height: 95%;
+    width: 93%;
+    margin: auto;
+    padding: 1rem;
+}
+
+body {
+    border-left: 10px solid black;
+    margin: 0.2rem;
+}
+
+h2.vertical {
+    writing-mode: vertical-lr;
+    float: left;
+    margin: 12rem 0 0 0em;
+    font-size: 1.8em;
+    background: #96e5fb;
+    padding: 0.4rem;
+
+}
+
+div.flex, .socialContainer, .navContainer {
+    display: flex;
+}
+
+div.flex {
+    justify-content: space-between;
+    margin: 0 5rem 0 0;
+}
+.socialContainer, .navContainer {
+    justify-content: space-between;
+}
